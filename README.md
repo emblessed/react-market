@@ -2,27 +2,6 @@
 
 Полнофункциональный маркетплейс с React фронтендом и Node.js бэкендом.
 
-## 📁 Структура проекта
-
-```
-react-market-main/
-├── client/          # React фронтенд (Vite)
-│   ├── src/
-│   │   ├── Main/    # Главная страница
-│   │   ├── Login/   # Авторизация
-│   │   ├── Register/# Регистрация
-│   │   └── cart/    # Корзина
-│   └── package.json
-│
-└── server/          # Node.js + Express бэкенд
-    ├── config/      # Конфигурация БД
-    ├── controllers/ # Контроллеры
-    ├── middleware/  # Middleware
-    ├── models/      # Модели данных
-    ├── routes/      # API роуты
-    └── package.json
-```
-
 ## 🚀 Быстрый старт
 
 ### Бэкенд
