@@ -19,6 +19,7 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/cart" element={<CartMinimal />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </BrowserRouter>
     </ToastProvider>
